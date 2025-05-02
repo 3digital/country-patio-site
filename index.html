@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .menu-image {
+        display: block;
+        margin: 0 auto;
+        border-radius: 0.75rem;
+        box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
+        width: 100%;
+        max-width: 28rem;
+        object-fit: cover;
+        aspect-ratio: 4/3;
+      }
+    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Country Patio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-yellow-100 via-red-50 to-orange-100 text-gray-900 relative">
+  <!-- Background overlay with title -->
+  <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center z-0">
+    <h1 class="text-5xl font-extrabold text-white text-center drop-shadow-xl">Welcome to The Country Patio</h1>
+  </div>
+
+  <header class="bg-white bg-opacity-90 shadow-md py-6 relative z-10">
+    <div class="max-w-5xl mx-auto px-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-green-700">The Country Patio</h1>
+      <p class="text-sm text-gray-600">8940 FM 1854, Dale, TX 78616</p>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-12 relative z-10">
+    <section class="text-center bg-white bg-opacity-90 p-8 rounded-xl shadow">
+      <h2 class="text-3xl font-bold mb-4">Welcome to The Country Patio</h2>
+      <p class="text-lg text-gray-700 mb-6">
+        Nestled in the heart of Dale, Texas, The Country Patio stands as a beacon of culinary delight.
+      </p>
+      <p class="text-gray-600 max-w-xl mx-auto mb-4">
+        As a family-owned and operated restaurant, we've built a reputation for serving fresh, flavorful dishes that keep our patrons coming back. From hearty burgers to crisp salads, every item on our menu is made with care — and priced just right.
+      </p>
+      <a href="#menu" class="mt-6 inline-block bg-green-700 text-white px-6 py-2 rounded-full hover:bg-green-800 transition">
+        View Menu
+      </a>
+    
+      <!-- Junior Meals Category -->
+      <h4 class="text-xl font-semibold text-center mb-4">Junior Meals</h4>
+      <ul class="list-disc list-inside text-gray-700 mb-6">
+        <li>Hamburger - $6.99</li>
+        <li>Jr. Cheeseburger - $7.99</li>
+        <li>Jr. Crispy/Grilled Chicken Burger - $7.99</li>
+        <li>Jr. Fish Burger - $7.99</li>
+      </ul>
+</section>
+
+    <section id="menu" class="mt-16 bg-white bg-opacity-90 p-8 rounded-xl shadow">
+      <h3 class="text-2xl font-semibold text-center mb-6">Menu</h3>
+
+      <!-- Burgers Category -->
+      <h4 class="text-xl font-semibold text-center mb-4">Burgers</h4>
+      <img src="cp_burger.jpeg" alt="Burgers" class="menu-image">
+      <ul class="list-disc list-inside text-gray-700 mb-6">
+        <li>Classic Burger - $10.99</li>
+        <li>Bacon Cheeseburger - $12.99</li>
+        <li>Mushroom Swiss Burger - $12.99</li>
+        <li>BBQ Burger - $11.99</li>
+        <li>Jalapeño Burger - $11.99</li>
+      </ul>
+
+      <!-- Salads Category -->
+      <h4 class="text-xl font-semibold text-center mb-4">Salads</h4>
+      <img src="cp-country_steak.jpeg" alt="Salads" class="menu-image">
+      <ul class="list-disc list-inside text-gray-700 mb-6">
+        <li>Grilled Chicken Salad - $13.99</li>
+        <li>Crispy Chicken Salad - $13.99</li>
+        <li>Garden Salad - $10.99</li>
+        <li>Caesar Salad - $14.99</li>
+        <li>Taco Salad - $12.99</li>
+      </ul>
+
+      <!-- Sandwiches Category -->
+      <h4 class="text-xl font-semibold text-center mb-4">Sandwiches</h4>
+      <img src="cp-mushroom_swiss.jpg" alt="Sandwiches" class="menu-image">
+      <ul class="list-disc list-inside text-gray-700 mb-6">
+        <li>Grilled Cheese - $7.99</li>
+        <li>Chicken Club - $11.99</li>
+        <li>BLT - $10.99</li>
+        <li>Patty Melt - $12.99</li>
+        <li>Philly Sub - $12.99</li>
+        <li>Steak Bacon Swiss - $15.99</li>
+      </ul>
+
+      <!-- Plates Category -->
+      <h4 class="text-xl font-semibold text-center mb-4">Plates: Fish and/or Chicken (Fries Included)</h4>
+      <img src="cp-fish_plate.jpeg" alt="Fish Plate" class="menu-image">
+      <ul class="list-disc list-inside text-gray-700 mb-6">
+        <li>3pcs - $13.99</li>
+        <li>4pcs - $14.99</li>
+        <li>5pcs - $15.99</li>
+        <li>6pcs Wings - $11.99</li>
+        <li>12pcs Wings - $16.99</li>
+        <li><strong>Friday & Saturday Only:</strong> Chicken Fried Steak - $16.99</li>
+      </ul>
+
+      <!-- Mexican Category -->
+      <h4 class="text-xl font-semibold text-center mb-4">Mexican</h4>
+      <img src="cp-taco.jpeg" alt="Mexican Dishes" class="menu-image">
+      <p class="text-center text-gray-600 mb-6">Meat Choices: Beef, Chorizo, Ham, Pepperoni, Italian Sausage</p>
+      <ul class="list-disc list-inside text-gray-700 mb-6">
+        <li>Crispy Shell Tacos (3) - $6.99</li>
+        <li>Crispy Shell Tacos (4) - $7.99</li>
+        <li>Crispy Shell Tacos (5) - $8.99</li>
+        <li>2 Chalupas (No Meat) - $5.99</li>
+        <li>2 Chalupas (With Meat) - $7.99</li>
+        <li>Quesadilla (Cheese) - $6.99</li>
+        <li>Quesadilla (With Meat) - $8.99</li>
+      </ul>
+    
+      <!-- Pizza Category -->
+      <h4 class="text-xl font-semibold text-center mb-4">12&quot; &amp; 16&quot; Pizza</h4>
+      <img src="cp-pepp_pizza.jpeg" alt="Pizza" class="menu-image">
+      <p class="text-center text-gray-600 mb-6">Meat Options: Pepperoni &amp; Italian Sausage<br>Add a meat $2.00 each, Add Veggies $1.00</p>
+      <ul class="list-disc list-inside text-gray-700 mb-6">
+        <li>12&quot; Cheese Pizza - $9.99</li>
+        <li>12&quot; Veggie Pizza - $11.99</li>
+        <li>16&quot; Cheese Pizza - $11.99</li>
+        <li>16&quot; Veggie Pizza - $13.99</li>
+      </ul>
+</section>
+  </main>
+
+  <footer class="bg-white bg-opacity-90 border-t mt-16 py-6 relative z-10">
+    <div class="max-w-5xl mx-auto px-4 text-center text-sm text-gray-500">
+      © 2025 The Country Patio • 8940 FM 1854, Dale, TX 78616
+      <br />
+      <a href="https://www.facebook.com/herbbrite/" class="text-green-700 hover:underline" target="_blank" rel="noopener noreferrer">
+        Visit us on Facebook
+      </a>
+    </div>
+  </footer>
+</body>
+</html>
